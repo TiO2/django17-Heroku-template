@@ -1,0 +1,12 @@
+staticfiles
+*.pyc
+*.py[co]
+*.sw[po]
+*~
+*.log
+*.egg-info
+venv/
+virtenv/
+
+local.env
+
