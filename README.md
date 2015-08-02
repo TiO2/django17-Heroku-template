@@ -1,13 +1,10 @@
-Python + Django 1.7 with Heroku
+Python + Django 1.8 with Heroku
 =============================================
 
-
-This repository is an enabler to run Django (1.7) applications with Python on local environment and on [Heroku](https://www.heroku.com/).
-
+This repository is an enabler to run Django (1.8) applications with Python on local environment and on [Heroku](https://www.heroku.com/).
 
 Prerequisites
 -------------
-
 
 Add django enabler
 ------------------
@@ -17,7 +14,7 @@ Add this upstream repo:
     $ mkdir mysite
     $ cd mysite
     $ git init
-    $ git remote add upstream -m master git@github.com:TiO2/openshift-django17-bootstrap.git
+    $ git remote add upstream -m master git@github.com:TiO2/openshift-django18-bootstrap.git
     $ git pull -s recursive -X theirs upstream master
 
 Configuration
@@ -52,18 +49,12 @@ You can by generate one using python command line:
 
 ### Push key to the Heroku
 
-
-
 ### Database backend
-
 You may have to adapt settings according to your database backend.
 
 ```
 # Database
-# https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
-
-   
+# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
     
 ### Create a local development environment
 
@@ -89,6 +80,3 @@ Execute:
     $ python manage.py runserver
     
 
-
-
-    
