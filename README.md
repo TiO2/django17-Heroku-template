@@ -14,7 +14,7 @@ Add this upstream repo:
     $ mkdir mysite
     $ cd mysite
     $ git init
-    $ git remote add upstream -m master git@github.com:TiO2/openshift-django18-bootstrap.git
+    $ git remote add upstream -m master git@github.com:TiO2/django18-Heroku-template.git
     $ git pull -s recursive -X theirs upstream master
 
 Configuration
