@@ -1,5 +1,5 @@
 """
-Django settings for django17 project.
+Django settings for django18 project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.8/topics/settings/
