@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'django18.urls'
+ROOT_URLCONF = 'django19.urls'
 
-WSGI_APPLICATION = 'django18.wsgi.application'
+WSGI_APPLICATION = 'django19.wsgi.application'
 
 TEMPLATE_LOADERS = ['django.template.loaders.filesystem.Loader',
  'django.template.loaders.app_directories.Loader']

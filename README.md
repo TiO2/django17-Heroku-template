@@ -1,7 +1,7 @@
-Python + Django 1.8 with Heroku
+Python + Django 1.9 with Heroku
 =============================================
 
-This repository is an enabler to run Django (1.8) applications with Python on local environment and on [Heroku](https://www.heroku.com/).
+This repository is an enabler to run Django (1.9) applications with Python on local environment and on [Heroku](https://www.heroku.com/).
 
 Prerequisites
 -------------

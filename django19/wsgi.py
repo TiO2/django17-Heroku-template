@@ -1,5 +1,5 @@
 """
-WSGI config for django18 project.
+WSGI config for django19 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.8/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django18.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django19.settings")
 
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling
